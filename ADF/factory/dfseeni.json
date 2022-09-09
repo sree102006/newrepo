@@ -1,0 +1,9 @@
+{
+	"name": "dfseeni",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "534d4f72-bb4d-46fa-be98-f6578125224a",
+		"tenantId": "612b2635-757e-41ab-be34-21eb0e9ef493"
+	}
+}

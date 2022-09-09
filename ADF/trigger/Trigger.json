@@ -1,0 +1,27 @@
+{
+	"name": "Trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_SRC_TGT_copy1",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"FileName": "Customer.txt"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/source/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/934f567d-3ae2-4692-a817-07d7702480de/resourceGroups/dfstorage/providers/Microsoft.Storage/storageAccounts/seenistorage",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
