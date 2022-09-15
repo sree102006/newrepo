@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "dfseeni"
 		},
+		"AzureSqlDatabase_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase'"
+		},
 		"CosmosDb_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'CosmosDb'"
@@ -49,6 +53,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureSqlDatabase_connectionString": {
+						"value": "[parameters('AzureSqlDatabase_connectionString')]"
 					},
 					"CosmosDb_connectionString": {
 						"value": "[parameters('CosmosDb_connectionString')]"

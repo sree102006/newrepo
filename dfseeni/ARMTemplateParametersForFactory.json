@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "dfseeni"
 		},
+		"AzureSqlDatabase_connectionString": {
+			"value": ""
+		},
 		"CosmosDb_connectionString": {
 			"value": ""
 		},
