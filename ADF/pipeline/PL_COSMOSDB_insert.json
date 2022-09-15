@@ -39,12 +39,6 @@
 							},
 							{
 								"source": {
-									"name": "Title",
-									"type": "String"
-								}
-							},
-							{
-								"source": {
 									"name": "FirstName",
 									"type": "String"
 								}
