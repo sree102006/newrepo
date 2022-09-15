@@ -34,13 +34,16 @@
 									"type": "Int32"
 								},
 								"sink": {
-									"path": "$"
+									"path": "id"
 								}
 							},
 							{
 								"source": {
 									"name": "FirstName",
 									"type": "String"
+								},
+								"sink": {
+									"path": "fname"
 								}
 							}
 						]
