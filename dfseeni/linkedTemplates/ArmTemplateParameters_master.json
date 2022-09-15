@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfseeni"
+		},
+		"CosmosDb_connectionString": {
+			"value": ""
+		},
+		"seenistorage_connectionString": {
+			"value": ""
+		},
+		"Trigger_properties_PL_SRC_TGT_copy1_parameters_FileName": {
+			"value": "Customer.txt"
+		},
+		"Trigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/934f567d-3ae2-4692-a817-07d7702480de/resourceGroups/dfstorage/providers/Microsoft.Storage/storageAccounts/seenistorage"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
