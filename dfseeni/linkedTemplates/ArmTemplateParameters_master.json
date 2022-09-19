@@ -17,11 +17,17 @@
 		"seenistorage_connectionString": {
 			"value": ""
 		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
 		"Trigger_properties_PL_SRC_TGT_copy1_parameters_FileName": {
 			"value": "Customer.txt"
 		},
 		"Trigger_properties_typeProperties_scope": {
 			"value": "/subscriptions/934f567d-3ae2-4692-a817-07d7702480de/resourceGroups/dfstorage/providers/Microsoft.Storage/storageAccounts/seenistorage"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0915-032308-fyeo5nyq"
 		},
 		"containerUri": {
 			"value": ""
