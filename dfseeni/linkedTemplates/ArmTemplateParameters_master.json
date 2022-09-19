@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "dfseeni"
 		},
+		"AzureDatabricksDeltaLake1_accessToken": {
+			"value": ""
+		},
 		"AzureSqlDatabase_connectionString": {
 			"value": ""
 		},
